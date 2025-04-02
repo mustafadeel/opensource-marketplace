@@ -27,6 +27,7 @@
  *
  * ## Required Secrets
  *
+ *  - `AUTH0_DOMAIN` The Auth0 domain for the tenant, this is used to obtain the JWKS
  *  - `AUTH0_CLIENT_ID` Client ID for Regular Web Applicaton, this action is registered to
  *  - `AUTH0_CLIENT_SECRET` Client Secret for Regular Web Application, this action is registered to
  *  - `ACTION_SECRET` A secret that is unique to this application you can use `uuidgen` or a secure random string
